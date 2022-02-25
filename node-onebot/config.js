@@ -4,7 +4,7 @@ module.exports = {
         platform:           1,      //1:安卓手机 2:aPad 3:安卓手表 4:MacOS 5:iPad
         debug:              false,  //开启debug
         use_cqhttp_notice:  true,   //是否使用cqhttp标准的notice事件格式
-        host:               "localhost",  //监听主机名
+        host:               "0.0.0.0",  //监听主机名
         port:               5700,       //端口
         use_http:           false,      //启用http
         use_ws:             false,      //启用正向ws，和http使用相同地址和端口
